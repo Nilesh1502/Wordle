@@ -11,4 +11,4 @@ Make sure to fulfill the requirements.<br />
 In terminal: **py game.py** / **python game.py** to run the application.<br />
 
 <ins>Gameplay screenshot</ins>:<br />
-![alt text]
+![alt text](https://github.com/Nilesh1502/Wordle/blob/image/W1.png?raw=true)
