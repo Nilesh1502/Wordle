@@ -2,7 +2,7 @@
 
 A command line wordle game using python.<br />
 
-##<ins>Requirements</ins>:<br />
+## <ins>Requirements</ins>:<br />
 Python version-3<br />
 Install colorama: **pip install colorama** <br />
 
