@@ -65,26 +65,3 @@ class wordle:
             print(f"Total attempt used: {len(self.attempt_words)}{Fore.RESET}")
             return True
         return False
-
-
-"""
-    def display(self):
-        for i in range(MAX_ATTEMPTS):
-            if i < len(self.attempt_words):
-                word = self.attempt_words[i]
-                for j in range(len(word)):
-                    char=""
-                    if self.words_status[i].isCorrect[j]:
-                        char=f"{Fore.GREEN}{word[j]}{Fore.RESET}"
-                    elif self.words_status[i].isPresent[j]:
-                        char=f"{Fore.YELLOW}{word[j]}{Fore.RESET}"
-                    else:
-                        char=f"{Style.DIM}{word[j]}{Style.RESET_ALL}"
-
-                    if j+1 == MAX_LENGTH:
-                        print(char, end="\n")
-                    else:
-                        print(char, end=" ")
-            else:
-                print(f"_ _ _ _ _")
-"""
